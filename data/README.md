@@ -20,10 +20,6 @@ data/
     └── mono/*.raw
 ```
 
-Files in `synchronized/color/` and `synchronized/mono/` are paired by identical filename. Verify all included files from the repository root with:
-
-```bash
-sha256sum -c data/SHA256SUMS
-```
+Files in `synchronized/color/` and `synchronized/mono/` are paired by identical filename.
 
 The included RAW dataset is approximately 822 MB. Each individual file is below GitHub's 100 MB hard limit, but Git LFS or an archival data repository is recommended to keep the repository manageable. Add the final data license and permanent archival URL before public release.

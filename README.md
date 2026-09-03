@@ -86,35 +86,10 @@ This repository also includes reproducible processing examples for the accompany
 
    The validated environment uses Python 3.10. Conda users can reproduce it with `conda env create -f environment.yml`.
 
-4. Verify the included RAW dataset:
-
-   ```bash
-   sha256sum -c data/SHA256SUMS
-   ```
-
-5. Start Jupyter from the repository root and open `Camera_Array_Processing_Examples.ipynb`.
+4. Start Jupyter from the repository root and open `Camera_Array_Processing_Examples.ipynb`.
 
    ```bash
    jupyter lab
    ```
 
 The notebook automatically selects CUDA when available and otherwise uses the CPU. If Jupyter must be started from another directory, set `CAMERA_ARRAY_PROJECT_ROOT` to the cloned repository path before launching it.
-
-### Processing tasks
-
-- **Task 1A:** 21 mm color to 50 mm monochrome registration and fusion comparison.
-- **Task 1B:** overlap-cropped 21 mm color to 25 mm monochrome fusion with local refinement.
-- **Task 2:** global and 3 × 3 piecewise polarization registration and structural overlays.
-- **Task 3:** Vimba exposure fusion, Arducam focus stacking, cross-modal registration, and MTF-GLP-HPM fusion.
-- **Task 4:** synchronized-pair global alignment, local refinement, and fusion comparison.
-
-Run **Setup** and **Shared utilities** first, followed by the cells for the desired task. Task-specific filenames and patch coordinates are grouped at the beginning of each section.
-
-### Reproducibility notes
-
-- The required RAW files are organized under `data/`; see [`data/README.md`](data/README.md).
-- RAW dimensions and normalization constants are centralized in the setup cell.
-- All input paths are repository-relative; no user-specific paths are stored in the notebook.
-- Notebook outputs and execution counts are cleared to keep the code reviewable.
-- `requirements.txt` pins the versions used for successful real-data validation, including the exact LightGlue revision.
-- Before the paper artifact is archived, add the dataset DOI, license, and permanent archival URL to `data/README.md`.
