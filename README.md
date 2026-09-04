@@ -67,29 +67,3 @@ chmod +x run_viewer.sh viewer
 
 ### Viewport Controls
 - Spacebar: Reset View (recenter and default zoom)
-
----
-
-## Camera Array Processing Examples
-
-This repository also includes reproducible processing examples for the accompanying IEEE Transactions on Computational Imaging manuscript. The notebook covers cross-camera registration, image fusion, polarization overlays, focus/exposure stacking, and local refinement for synchronized captures.
-
-### Processing quick start
-
-1. Clone the repository and enter its root directory.
-2. Create and activate a Python environment.
-3. Install the dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-   The validated environment uses Python 3.10. Conda users can reproduce it with `conda env create -f environment.yml`.
-
-4. Start Jupyter from the repository root and open `Camera_Array_Processing_Examples.ipynb`.
-
-   ```bash
-   jupyter lab
-   ```
-
-The notebook automatically selects CUDA when available and otherwise uses the CPU. If Jupyter must be started from another directory, set `CAMERA_ARRAY_PROJECT_ROOT` to the cloned repository path before launching it.
