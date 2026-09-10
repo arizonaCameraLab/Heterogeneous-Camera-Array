@@ -76,4 +76,10 @@ chmod +x run_viewer.sh viewer
   - **Live Web Viewer:** [https://arizonacameralab.github.io/department-photo/](https://arizonacameralab.github.io/department-photo/) (Mirror: [https://gord123098.github.io/department-photo/](https://gord123098.github.io/department-photo/))
   - **GitHub Repository:** [https://github.com/arizonaCameraLab/department-photo](https://github.com/arizonaCameraLab/department-photo) (Mirror: [https://github.com/Gord123098/department-photo](https://github.com/Gord123098/department-photo))
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/arizonaCameraLab/department-photo/main/assets/multiscale_layers_overview.jpg" width="49%" alt="Multiscale Layer Overview" />
+  <img src="https://raw.githubusercontent.com/arizonaCameraLab/department-photo/main/assets/telephoto_resolution_transition.jpg" width="49%" alt="Telephoto Resolution Transition" />
+</p>
+
+
 
