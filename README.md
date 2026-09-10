@@ -67,3 +67,12 @@ chmod +x run_viewer.sh viewer
 
 ### Viewport Controls
 - Spacebar: Reset View (recenter and default zoom)
+
+---
+
+## Related Projects & Online Viewers
+
+- **Department Photo (Multiscale Web Viewer)**: Interactive browser-based deep-zoom viewer for the registered department camera array (wide, 12mm, and telephoto focal tiers) with high-resolution color fusion and layer compositing.
+  - **Live Web Viewer:** [https://gord123098.github.io/department-photo/](https://gord123098.github.io/department-photo/)
+  - **GitHub Repository:** [https://github.com/Gord123098/department-photo](https://github.com/Gord123098/department-photo)
+
