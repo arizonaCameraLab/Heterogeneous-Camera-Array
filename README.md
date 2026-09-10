@@ -73,8 +73,8 @@ chmod +x run_viewer.sh viewer
 ## Related Projects & Online Viewers
 
 - **Department Photo (Multiscale Web Viewer)**: Interactive browser-based deep-zoom viewer for the registered department camera array (wide, 12mm, and telephoto focal tiers) with high-resolution color fusion and layer compositing.
-  - **Live Web Viewer:** [https://arizonacameralab.github.io/department-photo/](https://arizonacameralab.github.io/department-photo/) (Mirror: [https://gord123098.github.io/department-photo/](https://gord123098.github.io/department-photo/))
-  - **GitHub Repository:** [https://github.com/arizonaCameraLab/department-photo](https://github.com/arizonaCameraLab/department-photo) (Mirror: [https://github.com/Gord123098/department-photo](https://github.com/Gord123098/department-photo))
+  - **Live Web Viewer:** [https://gord123098.github.io/department-photo/](https://gord123098.github.io/department-photo/)
+  - **GitHub Repository:** [https://github.com/Gord123098/department-photo](https://github.com/Gord123098/department-photo)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/arizonaCameraLab/department-photo/main/assets/multiscale_layers_overview.jpg" width="49%" alt="Multiscale Layer Overview" />
